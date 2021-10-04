@@ -181,7 +181,7 @@ var (
 			NewMetricGauge("write_queued_bytes", "Write queued bytes.", "core.tcp_info"),
 		},
 		"dispatcher.list": {
-			NewMetricGauge("target", "Target status.", "dispatcher.list"),
+			NewMetricGauge("target", "Target status.", "htable.listTables"),
 		},
 		"tls.info": {
 			NewMetricGauge("opened_connections", "TLS Opened Connections.", "tls.info"),
